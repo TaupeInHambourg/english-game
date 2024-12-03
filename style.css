@@ -58,6 +58,7 @@ body{
 
 .back {
     background-color: var(--blue);
+    color: var(--white);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
