@@ -1,10 +1,18 @@
-let event = ["event1", "event2"];
+let small = ["-2", "2"];
+let medium = ["-6", "6"];
+let large = ["-10", "10"];
 
-function randomizeEvent(event){
-    const max = event.lenght;
-    function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
+function randomizePoint(array){
+    const max = array[0];
+    const min = array[1];
+    function getRandomInt(max, min) {
+        return Math.floor(Math.random() * (max - min) + min);
     }
-      
-    console.log(getRandomInt(3));
+}
+
+function reveal(){
+    const flipBoxes = document.querySelectorAll(".flip_box");
+    flipBoxes.forEach(flipBox => {
+        flipBox.classList.toggle("flipped");
+    });
 }
