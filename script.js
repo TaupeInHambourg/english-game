@@ -142,6 +142,7 @@ function reset(){
     const flipBoxes = document.querySelectorAll(".flip_box");
     if (pointArray.length == 0){
         flipBoxes.forEach(flipBox => {
+            
             // Attribute point to each cards
             let size = flipBox.getAttribute("bloc-size");
             let point = null;
@@ -152,6 +153,9 @@ function reset(){
                     break;
                 case 'medium':
                     point = randomizePoint(medium);
+                    break;
+                case 'mediumplus':
+                    point = randomizePoint(mediumplus);
                     break;
                 case 'large':
                     point = randomizePoint(large);
