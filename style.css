@@ -25,6 +25,10 @@ body{
 .flex-column{
     flex-direction: column;
 }
+.flex-row{
+    flex-direction: row;
+    gap: 10px;
+}
 .flex-wrap{
     flex-wrap: wrap;
     gap: 25px;
@@ -91,7 +95,7 @@ body{
 body > div:nth-of-type(2){
     padding: 30px 0;
 }
-.button{
+.primary-button{
     background-color: var(--purple);
     color: var(--white);
     border: unset;
@@ -105,4 +109,19 @@ body > div:nth-of-type(2){
         color: var(--purple);
         cursor: pointer;
     }
+}
+.secondary-button{
+    background-color: var(--white);
+    color: var(--purple);
+    border: unset;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: solid 2px var(--purple);
+    font-size:16pt;
+
+    &:hover{
+        background-color: var(--purple);
+        color: var(--white);
+        cursor: pointer;
+    }    
 }
