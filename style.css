@@ -35,7 +35,8 @@ body{
 }
 
 .wrap-card>div>img, .front-img>img{
-    height:120px;
+    max-height:130px;
+    max-width:130px;
 }
 .card-container,
 .flip_box {
@@ -67,6 +68,11 @@ body{
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    gap:10px;
+    > img {
+        max-height: 80px;
+        max-width: 80px;
+    }
 }
 .front {
     background-color: var(--white);
@@ -124,4 +130,8 @@ body > div:nth-of-type(2){
         color: var(--white);
         cursor: pointer;
     }    
+}
+p{
+    margin:0;
+    padding:0;
 }
