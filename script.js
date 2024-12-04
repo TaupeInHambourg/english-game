@@ -133,7 +133,6 @@ function reveal(){
         flipBoxes.forEach(flipBox => {
             flipBox.classList.toggle("flipped");
         })
-        console.log("pointArray", pointArray);
     }
 }
 
@@ -142,7 +141,7 @@ function reset(){
     const flipBoxes = document.querySelectorAll(".flip_box");
     if (pointArray.length == 0){
         flipBoxes.forEach(flipBox => {
-            
+
             // Attribute point to each cards
             let size = flipBox.getAttribute("bloc-size");
             let point = null;
