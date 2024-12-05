@@ -1,7 +1,7 @@
-let small = ["-2", "2"];
-let medium = ["-6", "6"];
-let mediumplus = ["-8", "8"];
-let large = ["-10", "10"];
+let small = ["-3", "-1"];
+let medium = ["-5", "-3"];
+let mediumplus = ["-7", "-5"];
+let large = ["-10", "-7"];
 let pointArray = [];
 
 function addCards(){
