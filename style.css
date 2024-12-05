@@ -110,7 +110,7 @@ body > div:nth-of-type(2){
     border: solid 2px var(--purple);
     font-size:16pt;
 
-    &:hover{
+    /* &:hover{
         background-color: var(--white);
         color: var(--purple);
         cursor: pointer;
@@ -134,7 +134,7 @@ body > div:nth-of-type(2){
         border-radius: 50px;
         border: solid 2px var(--purple);
         font-size:16pt;
-    }
+    } */
 }
 .secondary-button{
     background-color: var(--white);
@@ -151,7 +151,7 @@ body > div:nth-of-type(2){
         cursor: pointer;
     }
      */
-    &:focus{
+    /* &:focus{
         background-color: var(--white);
         color: var(--purple);
         border: unset;
@@ -169,7 +169,7 @@ body > div:nth-of-type(2){
         border-radius: 50px;
         border: solid 2px var(--purple);
         font-size:16pt;
-    }
+    } */
 }
 p{
     margin:0;
