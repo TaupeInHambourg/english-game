@@ -125,16 +125,10 @@ body > div:nth-of-type(2){
         border: solid 2px var(--purple);
         font-size:16pt;
     }
-    
+    */
     &:active{
-        background-color: var(--purple);
-        color: var(--white);
-        border: unset;
-        padding: 10px 15px;
-        border-radius: 50px;
-        border: solid 2px var(--purple);
-        font-size:16pt;
-    } */
+        scale:0.9 ;
+    } 
 }
 .secondary-button{
     background-color: var(--white);
@@ -170,6 +164,10 @@ body > div:nth-of-type(2){
         border: solid 2px var(--purple);
         font-size:16pt;
     } */
+
+    &:active{
+        scale:0.9 ;
+    } 
 }
 p{
     margin:0;
