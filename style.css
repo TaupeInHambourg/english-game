@@ -145,12 +145,12 @@ body > div:nth-of-type(2){
     border: solid 2px var(--purple);
     font-size:16pt;
 
-    &:hover{
+    /* &:hover{
         background-color: var(--purple);
         color: var(--white);
         cursor: pointer;
     }
-    
+     */
     &:focus{
         background-color: var(--white);
         color: var(--purple);
